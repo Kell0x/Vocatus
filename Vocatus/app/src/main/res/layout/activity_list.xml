@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background=""
+    android:background="#000000"
     tools:context="com.erwan.vocatus.FullscreenActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view

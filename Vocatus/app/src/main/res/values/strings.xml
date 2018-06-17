@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Vocatus</string>
 
-    <string name="buttonTags">Chercher par tags</string>
+    <string name="buttonTags">J\'ai de la chance</string>
     <string name="buttonList">Liste des shooters</string>
     <string name="buttonCocktails">Liste des cocktails</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
