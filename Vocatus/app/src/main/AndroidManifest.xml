@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.erwan.vocatus">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -23,7 +26,8 @@
         <activity
             android:name=".TagsActivity"
             android:parentActivityName=".FullscreenActivity"
-            android:label="Recherche">
+            android:label="J'ai de la chance"
+            android:theme="@style/FullscreenTheme">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
@@ -33,7 +37,8 @@
         <activity
             android:name=".ListActivity"
             android:parentActivityName=".FullscreenActivity"
-            android:label="Liste des shooters">
+            android:label="Liste des shooters"
+            android:theme="@style/FullscreenTheme">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
@@ -43,7 +48,8 @@
         <activity
             android:name=".CockActivity"
             android:parentActivityName=".FullscreenActivity"
-            android:label="Liste des cocktails">
+            android:label="Liste des cocktails"
+            android:theme="@style/FullscreenTheme">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
