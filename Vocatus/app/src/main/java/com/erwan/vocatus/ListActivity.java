@@ -88,7 +88,7 @@ public class ListActivity extends AppCompatActivity {
 
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("Erreur")
+                builder.setMessage("2 cl "+getText(R.string.vodka)+"n\1 cl "+getText(R.string.curaçao_bleu)+"n\3 cl "+getText(R.string.bailey))
                         .setTitle("After Eight Shot");
                 AlertDialog dialog = builder.create();
                 dialog.show();

@@ -156,7 +156,7 @@ public class FullscreenActivity extends AppCompatActivity {
             });
         }
 
-        /* Checks if external storage is available for read and write */
+        /** Checks if external storage is available for read and write **/
         public boolean isExternalStorageWritable() {
             String state = Environment.getExternalStorageState();
             if (Environment.MEDIA_MOUNTED.equals(state)) {
