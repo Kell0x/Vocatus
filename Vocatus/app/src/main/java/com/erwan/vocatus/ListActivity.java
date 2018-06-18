@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+/**Déclaration des Boutons**/
+
 public class ListActivity extends AppCompatActivity {
 
     ImageButton button1;
@@ -34,6 +36,8 @@ public class ListActivity extends AppCompatActivity {
     ImageButton button24;
     ImageButton button25;
     ImageButton button26;
+    ImageButton button27;
+    ImageButton button28;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,12 +70,16 @@ public class ListActivity extends AppCompatActivity {
         button24 = findViewById(R.id.imageButton24);
         button25 = findViewById(R.id.imageButton25);
         button26 = findViewById(R.id.imageButton26);
+        button27 = findViewById(R.id.imageButton27);
+        button28 = findViewById(R.id.imageButton28);
+
+/**Activation des boutons**/
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
         button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de Gin\n2cl de triple sec\n1 trait de jus d'ananas")
+                builder.setMessage("2cl "+getText(R.string.gin)+"\n2cl "+getText(R.string.triple_sec)+"\n1 "+getText(R.string.trait)+" "+getText(R.string.jus_ananas))
                         .setTitle("Aloha");
                 AlertDialog dialog = builder.create();
                 dialog.show();
@@ -80,8 +88,8 @@ public class ListActivity extends AppCompatActivity {
 
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de liqueur de café\n2cl de Bailey's\n2cl de triple sec\nfaire flamber et boire à la paille")
-                        .setTitle("B-52");
+                builder.setMessage("Erreur")
+                        .setTitle("After Eight Shot");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -89,8 +97,8 @@ public class ListActivity extends AppCompatActivity {
 
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de Baileys\n4cl de get 27")
-                        .setTitle("Blowjob 2");
+                builder.setMessage("2cl "+getText(R.string.liqueur_café)+"\n2cl "+getText(R.string.bailey)+"\n2cl "+getText(R.string.triple_sec)+"\n"+getText(R.string.flamber_boire))
+                        .setTitle("B-52");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -98,8 +106,8 @@ public class ListActivity extends AppCompatActivity {
 
         button4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("1cl de sirop de grenadine\n1cl de Baileys\n3cl de vodka")
-                        .setTitle("Cervelle de singe");
+                builder.setMessage("Erreur")
+                        .setTitle("Bazooka");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -107,8 +115,8 @@ public class ListActivity extends AppCompatActivity {
 
         button5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("1/3 de vodka\n1/3 de tequila\n1/3 de curaçao")
-                        .setTitle("Cocaïne liquide");
+                builder.setMessage("2cl "+getText(R.string.bailey)+"\n4cl "+getText(R.string.get_27))
+                        .setTitle("Blowjob 2");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -116,8 +124,8 @@ public class ListActivity extends AppCompatActivity {
 
         button6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de liqueur de café\n2cl de Baileys\n2cl de jus d'ananas")
-                        .setTitle("Cochonne");
+                builder.setMessage("1cl "+getText(R.string.grenadine)+"\n1cl "+getText(R.string.bailey)+"\n3cl "+getText(R.string.vodka))
+                        .setTitle("Cervelle de singe");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -125,8 +133,8 @@ public class ListActivity extends AppCompatActivity {
 
         button7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("4cl de tequila\n2cl de liqueur de café\nfaire flamber et boire à la paille")
-                        .setTitle("Cucaracha");
+                builder.setMessage("1/3 "+getText(R.string.vodka)+"\n1/3 "+getText(R.string.tequila)+"\n1/3 "+getText(R.string.curaçao))
+                        .setTitle("Cocaïne liquide");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -134,8 +142,8 @@ public class ListActivity extends AppCompatActivity {
 
         button8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("1/3 de triple sec\n1/3 de Baileys\n1/3 de gin\nfaire flamber et boire à la paille")
-                        .setTitle("G-52");
+                builder.setMessage("2cl "+getText(R.string.liqueur_café)+"\n2cl "+getText(R.string.bailey)+"\n2cl "+getText(R.string.jus_ananas))
+                        .setTitle("Cochonne");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -143,8 +151,8 @@ public class ListActivity extends AppCompatActivity {
 
         button9.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de vodka ou de tequila\n4cl d'abscinthe")
-                        .setTitle("Head Shock");
+                builder.setMessage("4cl "+getText(R.string.tequila)+"\n2cl "+getText(R.string.liqueur_café)+"\n"+getText(R.string.flamber_boire))
+                        .setTitle("Cucaracha");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -152,8 +160,8 @@ public class ListActivity extends AppCompatActivity {
 
         button10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("3cl de get 27\n3cl de Baileys\n3cl de triple sec")
-                        .setTitle("Irish Flag");
+                builder.setMessage("1/3 "+getText(R.string.triple_sec)+"\n1/3 "+getText(R.string.bailey)+"\n1/3 "+getText(R.string.gin)+"\n"+getText(R.string.flamber_boire))
+                        .setTitle("G-52");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -161,8 +169,8 @@ public class ListActivity extends AppCompatActivity {
 
         button11.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("1/3 de sirop de fraise\n1/3 de rhum blanc ou de vodka\n1/3 de curaçao")
-                        .setTitle("M.");
+                builder.setMessage("2cl "+getText(R.string.vodka)+" "+getText(R.string.ou)+" "+getText(R.string.tequila)+"\n4cl "+getText(R.string.abscinthe))
+                        .setTitle("Head Shock");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -170,8 +178,8 @@ public class ListActivity extends AppCompatActivity {
 
         button12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de vodka\n2cl d'eau-de-vie\n2cl de Malibu\n1 trait de grenadine")
-                        .setTitle("Morsure de vampire");
+                builder.setMessage("3cl "+getText(R.string.get_27)+"\n3cl "+getText(R.string.bailey)+"\n3cl "+getText(R.string.triple_sec))
+                        .setTitle("Irish Flag");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -179,8 +187,8 @@ public class ListActivity extends AppCompatActivity {
 
         button13.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de vodka\n0,5cl d'abscinthe\ncitron\nsucre\ncanelle")
-                        .setTitle("Kalachnikov");
+                builder.setMessage("1/3 "+getText(R.string.sirop_fraise)+"\n1/3 "+getText(R.string.rhum_blanc)+" "+getText(R.string.ou)+" "+getText(R.string.vodka)+"\n1/3 "+getText(R.string.curaçao))
+                        .setTitle("M.");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -188,8 +196,8 @@ public class ListActivity extends AppCompatActivity {
 
         button14.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de vodka\n2cl de triple-sec\n2cl de jus de citron vert")
-                        .setTitle("Kamikaze");
+                builder.setMessage("2cl "+getText(R.string.vodka)+"\n2cl "+getText(R.string.eau_vie)+"\n2cl "+getText(R.string.malibu)+"\n1 "+getText(R.string.trait)+" "+getText(R.string.grenadine))
+                        .setTitle("Morsure de vampire");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -197,8 +205,8 @@ public class ListActivity extends AppCompatActivity {
 
         button15.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de vodka\n2cl de curaçao\n2cl de jus de citron")
-                        .setTitle("Kamikaze Blue");
+                builder.setMessage("2cl "+getText(R.string.vodka)+"\n0,5cl "+getText(R.string.abscinthe)+"\n"+getText(R.string.citron)+"\n"+getText(R.string.sucre2)+"\n"+getText(R.string.cannelle))
+                        .setTitle("Kalachnikov");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -206,8 +214,8 @@ public class ListActivity extends AppCompatActivity {
 
         button16.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("3cl de vodka\n2cl de get 31\n0,5cl de curaçao")
-                        .setTitle("Kiss Cool");
+                builder.setMessage("2cl "+getText(R.string.vodka)+"\n2cl "+getText(R.string.triple_sec)+"\n2cl "+getText(R.string.jus_citron_verts))
+                        .setTitle("Kamikaze");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -215,8 +223,8 @@ public class ListActivity extends AppCompatActivity {
 
         button17.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de vodka\n2cl d'abscinthe\n2cl de jus de citron  vert")
-                        .setTitle("Little Boy");
+                builder.setMessage("2cl "+getText(R.string.vodka)+"\n2cl "+getText(R.string.curaçao)+"\n2cl "+getText(R.string.jus_citron))
+                        .setTitle("Kamikaze Blue");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -224,8 +232,8 @@ public class ListActivity extends AppCompatActivity {
 
         button18.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("1cl de get 27\n2cl de Tequila\n2cl de Baileys")
-                        .setTitle("Orgasm");
+                builder.setMessage("3cl "+getText(R.string.vodka)+"\n2cl "+getText(R.string.get_31)+"\n0,5cl "+getText(R.string.curaçao))
+                        .setTitle("Kiss Cool");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -233,8 +241,8 @@ public class ListActivity extends AppCompatActivity {
 
         button19.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("3cl de crème de cassis\n3cl de vodka\n1 trait de tabasco")
-                        .setTitle("Sweet Spice");
+                builder.setMessage("2cl "+getText(R.string.vodka)+"\n2cl "+getText(R.string.abscinthe)+"\n2cl "+getText(R.string.jus_citron_verts))
+                        .setTitle("Little Boy");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -242,8 +250,8 @@ public class ListActivity extends AppCompatActivity {
 
         button20.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de tequila\n2cl de gin\n2cl de vodka\n1 trait de curaçao")
-                        .setTitle("TGV");
+                builder.setMessage("1cl "+getText(R.string.get_27)+"\n2cl "+getText(R.string.tequila)+"\n2cl "+getText(R.string.bailey))
+                        .setTitle("Orgasm");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -251,8 +259,8 @@ public class ListActivity extends AppCompatActivity {
 
         button21.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de triple sec\n2cl de vodka\n5 gouttes de curaçao")
-                        .setTitle("Thin blue line");
+                builder.setMessage("3cl "+getText(R.string.crème_cassis)+"\n3cl "+getText(R.string.vodka)+"\n1 "+getText(R.string.trait)+" "+getText(R.string.tabasco))
+                        .setTitle("Sweet Spice");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -260,8 +268,8 @@ public class ListActivity extends AppCompatActivity {
 
         button22.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de gin\n2cl de vodka\n1cl de citron vert")
-                        .setTitle("Tomakazi");
+                builder.setMessage("2cl "+getText(R.string.tequila)+"\n2cl "+getText(R.string.gin)+"\n2cl "+getText(R.string.vodka)+"\n1 "+getText(R.string.trait)+" "+getText(R.string.curaçao))
+                        .setTitle("TGV");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -269,8 +277,8 @@ public class ListActivity extends AppCompatActivity {
 
         button23.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl d'energy drink\n2cl de vodka\n2cl de jus d'orange")
-                        .setTitle("Vitamine C bomb shot");
+                builder.setMessage("2cl "+getText(R.string.triple_sec)+"\n2cl "+getText(R.string.vodka)+"\n5 "+getText(R.string.gouttes)+" "+getText(R.string.curaçao))
+                        .setTitle("Thin blue line");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -278,8 +286,8 @@ public class ListActivity extends AppCompatActivity {
 
         button24.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de liqueur de café\n2cl de malibu\n2cl de rhum")
-                        .setTitle("Voodoo");
+                builder.setMessage("2cl "+getText(R.string.gin)+"\n2cl "+getText(R.string.vodka)+"\n1cl "+getText(R.string.citron_vert))
+                        .setTitle("Tomakazi");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -287,8 +295,8 @@ public class ListActivity extends AppCompatActivity {
 
         button25.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de get 27\n2cl de vodka\nfaire flamber et boire à la paille")
-                        .setTitle("Waf Waf");
+                builder.setMessage("2cl "+getText(R.string.energy_drink)+"\n2cl "+getText(R.string.vodka)+"\n2cl "+getText(R.string.jus_orange))
+                        .setTitle("Vitamine C bomb shot");
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -296,7 +304,25 @@ public class ListActivity extends AppCompatActivity {
 
         button26.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                builder.setMessage("2cl de vodka\n1cl de curaçao\n1cl de triple sec\n1 trait de citron vert")
+                builder.setMessage("2cl "+getText(R.string.liqueur_café)+"\n2cl "+getText(R.string.malibu)+"\n2cl "+getText(R.string.rhum))
+                        .setTitle("Voodoo");
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            }
+        });
+
+        button27.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                builder.setMessage("2cl "+getText(R.string.get_27)+"\n2cl "+getText(R.string.vodka)+"\n"+getText(R.string.flamber_boire))
+                        .setTitle("Waf Waf");
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            }
+        });
+
+        button28.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                builder.setMessage("2cl "+getText(R.string.vodka)+"\n1cl "+getText(R.string.curaçao)+"\n1cl "+getText(R.string.triple_sec)+"\n1 "+getText(R.string.trait)+" "+getText(R.string.citron_vert))
                         .setTitle("Windex");
                 AlertDialog dialog = builder.create();
                 dialog.show();

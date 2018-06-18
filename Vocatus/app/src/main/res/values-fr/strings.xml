@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<string name="app_name">Vocatus</string>
+
+<string name="buttonTags">J\'ai de la chance</string>
+<string name="buttonList">Liste des shooters</string>
+<string name="buttonCocktails">Liste des cocktails</string>
+<string name="dummy_content">DUMMY\nCONTENT</string>
+<string name="vodka">de vodka</string>
+<string name="jus_citron">de jus de citron</string>
+<string name="jus_citron_verts">de jus de citron verts</string>
+<string name="menthe">feuilles de menthes</string>
+<string name="eau_bulle">eau gazeuse</string>
+<string name="sirop_sucre_canne">de sirop de sucre de canne</string>
+<string name="sucre">de sucre</string>
+<string name="sucre2">sucre</string>
+<string name="rhum_blanc">de rhum blanc</string>
+<string name="limonade">limonade</string>
+<string name="limonade2">de limonade</string>
+<string name="rhum_cubain">de rhum cubain (havana, bacardi)</string>
+<string name="cola">de cola</string>
+<string name="rhum_ambré">de rhum ambré</string>
+<string name="jus_ananas">de jus d\'ananas</string>
+<string name="lait_coco">de lait de coco</string>
+<string name="tequila">de tequila</string>
+<string name="triple_sec">de triple sec (cointreau, grand marnier)</string>
+<string name="sirop_melon">de sirop de melon</string>
+<string name="chambord">de chambord</string>
+<string name="jus_cranberry">de jus de cranberry (canneberges)</string>
+<string name="cachaça">de cachaça</string>
+<string name="citron_vert">citron vert</string>
+<string name="citron">citron</string>
+<string name="cuillère_sucre">cuillère à soupe de sucre</string>
+<string name="curaçao">de curaçao</string>
+<string name="curaçao_bleu">de curaçao bleu</string>
+<string name="jus_orange">de jus d\'oranges</string>
+<string name="grenadine">de sirop de grenadine</string>
+<string name="louche">louche </string>
+<string name="champagne">bouteille de champagne</string>
+<string name="vermouth_rouge">de vermouth rouge (martini, cinzano)</string>
+<string name="campari">de campari</string>
+<string name="gin">de gin</string>
+<string name="tranche">tranche de</string>
+<string name="liqueur_café">de liqueur de café (kahlua, marie brizard)</string>
+<string name="lait">de lait</string>
+<string name="crème_fraiche">de crème fraîche liquide</string>
+<string name="vin_blanc">de vin blanc</string>
+<string name="vermouth_dry">gouttes de vermouth dry (martini, noilly prat)</string>
+<string name="tonic">tonic (schweppes)</string>
+<string name="trait">trait de</string>
+<string name="bailey">de Bailey\'s</string>
+<string name="flamber_boire">faire flamber et boire à la paille</string>
+<string name="get_27">de get 27</string>
+<string name="get_31">de get 31</string>
+<string name="abscinthe">d\'abscinthe</string>
+<string name="sirop_fraise">de sirop de fraise</string>
+<string name="eau_vie">d\'eau de vie</string>
+<string name="malibu">de Malibu</string>
+<string name="cannelle">cannelle</string>
+<string name="crème_cassis">de crème de cassis</string>
+<string name="tabasco">de tabasco</string>
+<string name="gouttes">gouttes</string>
+<string name="ou">ou</string>
+<string name="energy_drink">d\'energy drink</string>
+<string name="rhum">de rhum</string>
+</resources>

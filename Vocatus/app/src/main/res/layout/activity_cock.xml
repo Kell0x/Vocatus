@@ -19,37 +19,192 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/moscowmule"
-                android:scaleType="fitXY"/>
+                    android:id="@+id/imageButton1"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/moscowmule"/>
 
             <ImageButton
                 android:id="@+id/imageButton2"
-                android:layout_width="wrap_content"
+                android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/missing"
-                android:scaleType="fitXY"/>
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/mojito" />
 
             <ImageButton
                 android:id="@+id/imageButton3"
-                android:layout_width="wrap_content"
+                android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/missing"
+                app:srcCompat="@drawable/rhum_collins"
                 android:scaleType="fitXY"/>
 
            <ImageButton
                 android:id="@+id/imageButton4"
-                android:layout_width="wrap_content"
+                android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/missing"
+                app:srcCompat="@drawable/cuba_libre"
                 android:scaleType="fitXY"/>
         </LinearLayout>
-    </LinearLayout>
 
+        <LinearLayout
+                android:id="@+id/ligne2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+            <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/pina_colada"/>
+
+            <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/margarita" />
+
+            <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sex_on_the_beach"
+                    android:scaleType="fitXY"/>
+
+            <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/caipirinha"
+                    android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ligne3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+            <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/cosmopolitan"/>
+
+            <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/blue_lagoon" />
+
+            <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/tequila_sunrise"
+                    android:scaleType="fitXY"/>
+
+            <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/daiquirii"
+                    android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ligne4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+            <ImageButton
+                    android:id="@+id/imageButton13"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/soupe_de_champagne"/>
+
+            <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/americano" />
+
+            <ImageButton
+                    android:id="@+id/imageButton15"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/gin_fizz"
+                    android:scaleType="fitXY"/>
+
+            <ImageButton
+                    android:id="@+id/imageButton16"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ti_punch"
+                    android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ligne5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+            <ImageButton
+                    android:id="@+id/imageButton17"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/white_russian"/>
+
+            <ImageButton
+                    android:id="@+id/imageButton18"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/jacqueline" />
+
+            <ImageButton
+                    android:id="@+id/imageButton19"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/vodka_martini"
+                    android:scaleType="fitXY"/>
+
+            <ImageButton
+                    android:id="@+id/imageButton20"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/gin_tonic"
+                    android:scaleType="fitXY"/>
+        </LinearLayout>
+    </LinearLayout>
 </ScrollView>

@@ -19,7 +19,7 @@
 
             <ImageButton
                 android:id="@+id/imageButton1"
-                android:layout_width="wrap_content"
+                android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/aloha"
@@ -27,26 +27,26 @@
 
             <ImageButton
                 android:id="@+id/imageButton2"
-                android:layout_width="wrap_content"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/after_eight_shot"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/b52"
                 android:scaleType="fitXY"/>
 
             <ImageButton
-                android:id="@+id/imageButton3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/blowjob"
-                android:scaleType="fitXY"/>
-
-            <ImageButton
                 android:id="@+id/imageButton4"
-                android:layout_width="wrap_content"
+                android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/cervelle"
+                app:srcCompat="@drawable/bazooka"
                 android:scaleType="fitXY"/>
         </LinearLayout>
 
@@ -60,23 +60,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/cocaine"
-                android:scaleType="fitXY" />
+                app:srcCompat="@drawable/blowjob"
+                android:scaleType="fitXY"/>
 
             <ImageButton
                 android:id="@+id/imageButton6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/missing" />
+                app:srcCompat="@drawable/cervelle"
+                android:scaleType="fitXY"/>
 
             <ImageButton
                 android:id="@+id/imageButton7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/cucaracha"
+                app:srcCompat="@drawable/cocaine"
                 android:scaleType="fitXY" />
 
             <ImageButton
@@ -84,8 +84,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/g52"
-                android:scaleType="fitXY" />
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/missing" />
         </LinearLayout>
 
         <LinearLayout
@@ -98,16 +98,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/missing" />
+                app:srcCompat="@drawable/cucaracha"
+                android:scaleType="fitXY" />
 
             <ImageButton
                 android:id="@+id/imageButton10"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/irishflag" />
+                app:srcCompat="@drawable/g52"
+                android:scaleType="fitXY" />
 
             <ImageButton
                 android:id="@+id/imageButton11"
@@ -123,7 +123,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/missing" />
+                app:srcCompat="@drawable/irishflag" />
         </LinearLayout>
 
         <LinearLayout
@@ -137,7 +137,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/kalachnikov" />
+                app:srcCompat="@drawable/missing" />
 
             <ImageButton
                 android:id="@+id/imageButton14"
@@ -145,7 +145,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/kamikaze" />
+                app:srcCompat="@drawable/missing" />
 
             <ImageButton
                 android:id="@+id/imageButton15"
@@ -153,7 +153,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/kamikazeblue" />
+                app:srcCompat="@drawable/kalachnikov" />
 
             <ImageButton
                 android:id="@+id/imageButton16"
@@ -161,7 +161,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/kisscool" />
+                app:srcCompat="@drawable/kamikaze" />
         </LinearLayout>
 
         <LinearLayout
@@ -175,7 +175,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/missing" />
+                app:srcCompat="@drawable/kamikazeblue" />
 
             <ImageButton
                 android:id="@+id/imageButton18"
@@ -183,7 +183,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/orgasm" />
+                app:srcCompat="@drawable/kisscool" />
 
             <ImageButton
                 android:id="@+id/imageButton19"
@@ -191,7 +191,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/sweetspice" />
+                app:srcCompat="@drawable/missing" />
 
             <ImageButton
                 android:id="@+id/imageButton20"
@@ -199,7 +199,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/tgv" />
+                app:srcCompat="@drawable/orgasm" />
         </LinearLayout>
 
         <LinearLayout
@@ -213,7 +213,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/thinblueline" />
+                app:srcCompat="@drawable/sweetspice" />
 
             <ImageButton
                 android:id="@+id/imageButton22"
@@ -221,7 +221,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/missing" />
+                app:srcCompat="@drawable/tgv" />
 
             <ImageButton
                 android:id="@+id/imageButton23"
@@ -229,7 +229,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/missing" />
+                app:srcCompat="@drawable/thinblueline" />
 
             <ImageButton
                 android:id="@+id/imageButton24"
@@ -237,7 +237,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/voodoo" />
+                app:srcCompat="@drawable/missing" />
         </LinearLayout>
 
         <LinearLayout
@@ -251,7 +251,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/wafwaf" />
+                app:srcCompat="@drawable/missing" />
 
             <ImageButton
                 android:id="@+id/imageButton26"
@@ -259,7 +259,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/windex" />
+                app:srcCompat="@drawable/voodoo" />
 
             <ImageButton
                 android:id="@+id/imageButton27"
@@ -267,7 +267,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/missing" />
+                app:srcCompat="@drawable/wafwaf" />
 
             <ImageButton
                 android:id="@+id/imageButton28"
@@ -275,7 +275,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/missing" />
+                app:srcCompat="@drawable/windex" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
